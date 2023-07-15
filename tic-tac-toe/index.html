@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Concert+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <div id="titulo">
+            <h1 class="texto" id="h1">Jogo da Velha</h1>
+            <p class="texto" id="p1">Selecione qual jogador irá começar</p>
+            <div id="btn">
+                <button class="botoes" id="btncirculo" onclick="chooseCircle()">Círculo</button>
+                <button class="botoes" id="btncruz" onclick="chooseCross()">Cruz</button>
+            </div>
+        </div>
+        <div id="gameBoard" class="bahhh">
+            <div id="square0" class="DivSquare">  
+                <div class="square" id="0">
+                    <p id="010"></p>
+                </div>
+            </div> 
+            <div id="square1" class="DivSquare">   
+                <div class="square" id="1">
+                    <p id="110"></p>
+                </div>
+            </div>
+            <div id="square2" class="DivSquare">    
+                <div class="square" id="2">
+                    <p id="210"></p>
+                </div>
+            </div>
+            <div id="square3" class="DivSquare">   
+                <div class="square" id="3">
+                    <p id="310"></p>
+                </div>
+            </div> 
+            <div id="square4" class="DivSquare">    
+                <div class="square" id="4">
+                    <p id="410"></p>
+                </div>
+            </div>
+            <div id="square5" class="DivSquare">    
+                <div class="square" id="5">
+                    <p id="510"></p>
+                </div>
+            </div>
+            <div id="square6" class="DivSquare">    
+                <div class="square" id="6">
+                    <p id="610"></p>
+                </div>
+            </div>
+            <div id="square7" class="DivSquare">    
+                <div class="square" id="7">
+                    <p id="710"></p>
+                </div>
+            </div>
+            <div id="square8" class="DivSquare">    
+                <div class="square" id="8">
+                    <p id="810"></p>
+                </div>
+            </div>
+        </div>
+    <div id="telaFinal">
+        <p id="info"></p>
+        <button onclick="document.location.reload()" id="Reset">Jogar Novamente</button>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>

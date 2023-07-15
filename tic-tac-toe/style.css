@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #120D31;
+}
+/*
+#Resultado {
+    background-color: #EFE6DD;
+    width: 100%;
+    height: 250px;
+    position:;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Jogo {
+    position:fixed;
+
+    justify-content: center;
+    align-items: center;
+}
+*/
+#h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    align-content: center;
+    font-size: 70px;
+    display: flex;
+    color: #F28123;
+    font-family: 'Permanent Marker', cursive;
+    justify-content: center;
+}
+
+#p1 {
+    padding: 0;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: #EFE6DD;
+    font-family: 'Carter One', cursive;
+}
+
+#btn {
+    display: inline;
+    align-items: center;
+}
+
+.botoes {
+    width: 205px;
+    height: 40px;
+    border-radius: 11em;
+    margin: 0;
+    margin-bottom: 30px;
+    background-color: #120D31;
+    color: #EFE6DD;
+    border: solid 4px #EFE6DD;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+.botoes:hover {
+    transform: scale(1.2);
+    background-color: #F28123;
+    color: #EFE6DD;
+    border: solid 4px #F28123;
+}
+
+#btncruz {
+    margin-left: 130px;
+}
+
+#gameBoard {
+    width: 400px;
+    height: 300px;
+    border: #120D31;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #120D31;
+    margin-left: 0;
+}
+
+#square0 {
+    border-right: solid 6px #F28123;
+    border-bottom: solid 6px #F28123;
+}
+#square1 {
+    border-bottom: solid 6px #F28123;
+    border-right: solid 6px #F28123;
+}
+#square2 {
+    border-bottom: solid 6px #F28123;
+}
+#square3 {
+    border-right: solid 6px #F28123;
+    border-bottom: solid 6px #F28123;
+}
+#square4 {
+    border-bottom: solid 6px #F28123;
+    border-right: solid 6px #F28123;
+}
+#square5 {
+    border-bottom: solid 6px #F28123;
+}
+#square6 {
+    border-right: solid 6px #F28123;
+}
+#square7 {
+    border-right: solid 6px #F28123;
+}
+
+/*cria os blocos do jogo*/
+.DivSquare {
+    width: 133.33px;
+    height: 100px;
+    background-color: #120D31;
+    /*border: solid 2px #F28123;*/
+    box-sizing: border-box;
+    /*centraliza o círculo e o X no quadrado*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    font-size: 80px;
+    color: #EFE6DD;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.cruz {
+    font-size: 80px;
+    color: #F28123;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#telaFinal{
+    display: none;
+    background-color: #efe6ddad;
+    border-radius: 5em;
+    box-shadow: #EFE6DD;
+    width: 500px;
+    height: 400px;
+}
+
+#info{
+    margin-top: 50px;
+    margin-left: 90px;
+    font-family: 'Permanent Marker', cursive;
+    color: #120D31;
+    font-size: 70px;
+}
+
+#Reset {
+    width: 205px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 11em;
+    background-color: #120D31;
+    color: #EFE6DD;
+    border: solid 2px #EFE6DD;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#Reset:hover {
+    transform: scale(1.2);
+    background-color: #F28123;
+    color: #EFE6DD;
+    border: solid 4px #F28123;
+}
+
